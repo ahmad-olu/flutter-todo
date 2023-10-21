@@ -1,0 +1,23 @@
+name: todo_isar_db
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.2.0+1
+  flutter_hooks: ^0.20.3
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  objectbox_generator: any
+
+flutter:
+  uses-material-design: true
